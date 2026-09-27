@@ -1,0 +1,88 @@
+/* Grundläggande stilar - mobile first */
+/* Grundläggande format är selector, property value */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color:#222;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Header */
+.site-header {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.logo p {
+    margin: 0;
+    font-weight: bold;
+}
+.site-header nav ul {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+}
+
+.site-header li {
+    margin-bottom: 0.5rem;
+}
+
+.site-header a {
+    color: #222;
+    text-decoration: none;
+}
+/* Hero */
+.hero {
+    min-height: 420px;
+    padding: 2rem 1rem;
+
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    background-color: #f5f5f5;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    background-color: #FFF;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Intro */
+
+/* Aktiviteter */
+
+/* CTA */
+
+/* Footer */
+
+/* Desktop styles */
