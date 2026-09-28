@@ -20,6 +20,17 @@ img {
     background-color: #fff;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
 .logo p {
     margin: 0;
     font-weight: bold;
@@ -43,7 +54,10 @@ img {
     min-height: 420px;
     padding: 2rem 1rem;
 
-    background-image: url('../images/hero.jpg');
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url('../images/hero.jpg');
+
     background-size: cover;
     background-position: center;
 
@@ -164,14 +178,31 @@ img {
     background-color: #d9d9d9;
 }
 
-.footer-brand,
-.footer-contact {
-    margin-bottom: 1.5rem;
+.footer-brand {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer-brand img {
+    width: 90px;
+    height: auto;
+    margin: 0 auto 1rem;
 }
 
 .footer-logo {
-    font-weight: bold;
     margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-contact,
+.footer-links {
+    text-align: left
 }
 
 .site-footer h2 {
@@ -247,4 +278,4 @@ img {
     .footer-info {
         gap: 4rem;
     }
-}
+} 
